@@ -37,5 +37,4 @@ WORKDIR /
 EXPOSE 8211/udp
 
 # Set default command
-#ENTRYPOINT ["/bin/sh","-c","sleep infinity"]
 ENTRYPOINT ["/entrypoint.sh"]
